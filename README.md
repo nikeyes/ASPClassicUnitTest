@@ -15,5 +15,7 @@ Para Crear Tests hay que seguir las siguientes reglas:
 	  
   4) ASPUnit: En cada fichero de Test es obligatorio definir un array con los Tests que contiene: (Ver ejemplo de la plantilla)
 	Public Function TestCaseNames()
+		
 		TestCaseNames = Array("TestAssertsTypes", "TestError")
+		
 	End Function
