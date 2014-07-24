@@ -13,9 +13,8 @@ Para Crear Tests hay que seguir las siguientes reglas:
     Build -> Transform All T4 Templates
 	  Build -> Build Solution o Build Project
 	  
-  4) ASPUnit: En cada fichero de Test es obligatorio definir un array con los Tests que contiene: (Ver ejemplo de la plantilla)
+  4) ASPUnit: En cada fichero de Test es obligatorio definir un array con los Tests que contiene: (Ver ejemplo de la plantilla):
+  
 	Public Function TestCaseNames()
-		
 		TestCaseNames = Array("TestAssertsTypes", "TestError")
-		
 	End Function
