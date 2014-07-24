@@ -18,3 +18,5 @@ Para Crear Tests hay que seguir las siguientes reglas:
 	Public Function TestCaseNames()
 		TestCaseNames = Array("TestAssertsTypes", "TestError")
 	End Function
+
+Si no se quiere utilizar la integración con MSTest, se puede acceder a la interfaz Web de ASPUnit en la ruta: /TestEngine/TestASPUnit.asp
