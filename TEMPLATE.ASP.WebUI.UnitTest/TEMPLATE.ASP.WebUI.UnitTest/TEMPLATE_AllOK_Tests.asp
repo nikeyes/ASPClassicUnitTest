@@ -5,11 +5,11 @@ Class TEMPLATE_AllOK_Tests
 		TestCaseNames = Array("TestTrue")
 	End Function
 
-	Public Sub TestInitialize()
+	Public Sub SetUp()
 		
 	End Sub
 
-	Public Sub TestCleanUp()
+	Public Sub TearDown()
 		
 	End Sub
 

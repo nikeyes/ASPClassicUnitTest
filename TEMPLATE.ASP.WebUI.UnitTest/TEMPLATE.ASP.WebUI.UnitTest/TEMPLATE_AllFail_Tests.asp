@@ -5,12 +5,12 @@ Class TEMPLATE_AllFail_Tests
 		TestCaseNames = Array("TestAssertsTypes", "TestError")
 	End Function
 
-	Public Sub TestInitialize()
+	Public Sub SetUp()
 		
 	End Sub
 
-	Public Sub TestCleanUp()
-		
+	Public Sub TearDown()
+
 	End Sub
 
     Public Sub TestError(oTestResult)

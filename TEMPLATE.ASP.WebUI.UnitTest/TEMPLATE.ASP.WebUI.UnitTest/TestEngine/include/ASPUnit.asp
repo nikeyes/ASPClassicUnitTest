@@ -77,7 +77,7 @@ Class TestCase
 		On Error Resume Next
 		oTestResult.StartTest Me
 
-		m_oTestContainer.TestInitialize()
+		m_oTestContainer.SetUp()
 
 		If (Err.Number <> 0) Then
 			oTestResult.AddError Err
@@ -92,7 +92,7 @@ Class TestCase
 		End If
 		Err.Clear()
 
-		m_oTestContainer.TestCleanUp()
+		m_oTestContainer.TearDown()
 
         If (Err.Number <> 0) Then
 			oTestResult.AddError Err
